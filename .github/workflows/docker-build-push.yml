@@ -29,5 +29,5 @@ jobs:
         context: .
         push: true
         tags: |
-          ${{ secrets.DOCKER_USERNAME }}/You2Api:latest
-          ${{ secrets.DOCKER_USERNAME }}/You2Api:${{ github.sha }}
+          ${{ secrets.DOCKER_USERNAME }}/you2api:latest
+          ${{ secrets.DOCKER_USERNAME }}/you2api:${{ github.sha }}
